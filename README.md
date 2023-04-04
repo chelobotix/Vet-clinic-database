@@ -55,6 +55,7 @@
 
 - **Animals Table**
 - **Multiple Queries**
+- **Use Transaction**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
