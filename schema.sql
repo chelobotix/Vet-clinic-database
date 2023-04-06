@@ -28,12 +28,16 @@ CREATE TABLE species (
 
 
 ALTER TABLE animals
-DROP COLUMN id, species;
+DROP COLUMN id,
+DROP COLUMN species;
 
 ALTER TABLE animals
 ADD COLUMN id SERIAL PRIMARY KEY;
 
 UPDATE animals SET id = id;
+
+ALTER TABLE animals
+DROP COLUMN species;
 
 ALTER TABLE animals
 ADD COLUMN species_id INTEGER,
