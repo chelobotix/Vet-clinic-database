@@ -49,5 +49,25 @@ ADD CONSTRAINT fk_owners
     REFERENCES owners (id);
 
 
+-- day 4
 
+CREATE TABLE vets (
+    id SERIAL PRIMARY KEY,
+    name varchar(100) NOT NULL,
+    age INT NOT NULL,
+    date_of_graduation DATE NOT NULL
+);
+
+CREATE TABLE specializations (
+    vets_id SERIAL REFERENCES vets (id),
+    species_id SERIAL REFERENCES species (id),
+    PRIMARY KEY (vets_id, species_id)
+);
+
+CREATE TABLE visits (
+    animals_id SERIAL REFERENCES animals (id),
+    vets_id SERIAL REFERENCES vets (id),
+    date_of_visit DATE,
+    PRIMARY KEY (animals_id, vets_id, date_of_visit)
+);
 
