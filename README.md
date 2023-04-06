@@ -54,7 +54,10 @@
 ### Key Features <a name="key-features"></a>
 
 - **Animals Table**
+- **Species Table**
+- **Owners Table**
 - **Multiple Queries**
+- **Join Queries**
 - **Use Transaction**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
