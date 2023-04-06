@@ -37,9 +37,6 @@ ADD COLUMN id SERIAL PRIMARY KEY;
 UPDATE animals SET id = id;
 
 ALTER TABLE animals
-DROP COLUMN species;
-
-ALTER TABLE animals
 ADD COLUMN species_id INTEGER,
 ADD CONSTRAINT fk_species
     FOREIGN KEY (species_id)
