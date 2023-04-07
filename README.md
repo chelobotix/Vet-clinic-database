@@ -59,6 +59,7 @@
 - **Multiple Queries**
 - **Join Queries**
 - **Use Transaction**
+- **Use Relations One to Many & Many to Many**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
