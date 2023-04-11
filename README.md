@@ -60,7 +60,7 @@
 - **Join Queries**
 - **Use Transaction**
 - **Use Relations One to Many & Many to Many**
-
+- **DB Schema**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
@@ -95,6 +95,15 @@ You should have installed POSTGRESQL.
 
 - GitHub: [@chelobotix](https://github.com/chelobotix)
 - Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
+
+👤 **Author**
+
+: Farida Gueleu
+
+🇧🇴 Bolivia 💓
+
+- GitHub: [@SFarida](https://github.com/SFarida)
+- Linkedin: [Farida Gueleu](https://www.linkedin.com/in/farida-gueleu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
