@@ -27,6 +27,7 @@ CREATE TABLE species (
 );
 
 
+
 ALTER TABLE animals
 DROP COLUMN id,
 DROP COLUMN species;
@@ -71,3 +72,11 @@ CREATE TABLE visits (
     PRIMARY KEY (animals_id, vets_id, date_of_visit)
 );
 
+-- Second week - Performance Audit
+
+CREATE INDEX animal_id_asc ON visits (animal_id);
+
+CREATE INDEX mail_asc ON owners (email);
+
+CREATE INDEX vet_id_asc ON visits (vet_id)
+vets_clinic-# WHERE (extract(dow from vet_id) = 2);
